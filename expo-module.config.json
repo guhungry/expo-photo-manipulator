@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "tvos", "android", "web"],
+  "ios": {
+    "modules": ["ExpoPhotoManipulatorModule"]
+  },
+  "android": {
+    "modules": ["com.guhungry.expophotomanipulator.ExpoPhotoManipulatorModule"]
+  }
+}
