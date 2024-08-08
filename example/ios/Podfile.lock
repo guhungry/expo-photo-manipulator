@@ -38,6 +38,7 @@ PODS:
     - Yoga
   - ExpoPhotoManipulator (0.1.0):
     - ExpoModulesCore
+    - WCPhotoManipulator (~> 2.3.0)
   - FBLazyVector (0.74.5)
   - fmt (9.1.0)
   - glog (0.3.5)
@@ -1202,6 +1203,7 @@ PODS:
     - React-perflogger (= 0.74.5)
     - React-utils (= 0.74.5)
   - SocketRocket (0.7.0)
+  - WCPhotoManipulator (2.3.0)
   - Yoga (0.0.0)
 
 DEPENDENCIES:
@@ -1273,6 +1275,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - SocketRocket
+    - WCPhotoManipulator
 
 EXTERNAL SOURCES:
   boost:
@@ -1411,7 +1414,7 @@ SPEC CHECKSUMS:
   ExpoFont: e7f2275c10ca8573c991e007329ad6bf98086485
   ExpoKeepAwake: 3b8815d9dd1d419ee474df004021c69fdd316d08
   ExpoModulesCore: 5440e96a8ee014f4fd88e77264985fd0a65f5f8c
-  ExpoPhotoManipulator: 07215d38a466a19a61d57cea3813c0a189adb788
+  ExpoPhotoManipulator: 5a50ead5efcdc9925f842afaa74a0e8b7dfa61c8
   FBLazyVector: ac12dc084d1c8ec4cc4d7b3cf1b0ebda6dab85af
   fmt: 4c2741a687cc09f0634a2e2c72a838b99f1ff120
   glog: fdfdfe5479092de0c4bdbebedd9056951f092c4f
@@ -1464,6 +1467,7 @@ SPEC CHECKSUMS:
   React-utils: f242eb7e7889419d979ca0e1c02ccc0ea6e43b29
   ReactCommon: f7da14a8827b72704169a48c929bcde802698361
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
+  WCPhotoManipulator: 88407e577e2afa7a53ecc38d4bf2087e72e31342
   Yoga: 950bbfd7e6f04790fdb51149ed51df41f329fcc8
 
 PODFILE CHECKSUM: 38a1f1f01498f041960cc5dc932d07a3868a9d95
