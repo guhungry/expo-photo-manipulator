@@ -41,3 +41,11 @@ android {
     abortOnError false
   }
 }
+
+dependencies {
+  implementation 'com.facebook.react:react-android'
+  implementation("com.guhungry.android:photo-manipulator:1.2.5") {
+    exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib'
+  }
+  implementation "org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion()}"
+}
