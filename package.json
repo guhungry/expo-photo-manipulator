@@ -9,6 +9,7 @@
     "clean": "expo-module clean",
     "lint": "expo-module lint",
     "test": "expo-module test",
+    "example": "yarn workspace expo-photo-manipulator-example",
     "prepare": "expo-module prepare",
     "prepublishOnly": "expo-module prepublishOnly",
     "expo-module": "expo-module",
@@ -18,8 +19,16 @@
   "keywords": [
     "react-native",
     "expo",
+    "image editor",
+    "image processing",
+    "image manipulator",
+    "photo editor",
+    "photo processing",
+    "photo manipulator",
     "expo-photo-manipulator",
-    "ExpoPhotoManipulator"
+    "ExpoPhotoManipulator",
+    "android",
+    "ios"
   ],
   "repository": "https://github.com/guhungry/expo-photo-manipulator",
   "bugs": {
@@ -41,5 +50,9 @@
     "expo": "*",
     "react": "*",
     "react-native": "*"
-  }
+  },
+  "workspaces": [
+    "example"
+  ],
+  "packageManager": "yarn@3.6.1"
 }
